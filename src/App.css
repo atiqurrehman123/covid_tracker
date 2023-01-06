@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.left {
+  flex: 0.9;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right .MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.graph {
+  flex-grow: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiSelect-selectMenu {
+  margin-right: 10px !important;
+  font-weight: 700 !important;
+  background-color: grey !important;
+  outline: none !important;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(110,107,110,1) !important;
+  -moz-box-shadow: 2px 2px 2px 0px rgba(110,107,110,1) !important;
+  box-shadow:2px 2px 2px 0px rgba(110,107,110,1) !important;
+}
+.MuiSelect-outlined.MuiSelect-outlined {
+  outline: none !important;
+}
+
+.MuiCard-root {
+  overflow: hidden;
+  margin-top: 20px !important;
+  background-color: #ccffe6 !important;
+}
+
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}

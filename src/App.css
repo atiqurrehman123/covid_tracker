@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background: blueviolet;
 }
 
 h1 {
@@ -17,6 +17,7 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
+
 }
 
 .left {
@@ -66,7 +67,7 @@ h3 {
 .MuiCard-root {
   overflow: hidden;
   margin-top: 20px !important;
-  background-color: #ccffe6 !important;
+  background-color: gainsboro !important;
 }
 
 
@@ -74,4 +75,36 @@ h3 {
   .app {
     flex-direction: column;
   }
+}
+select {
+  border: none;
+  background-color: #f1f1f1;
+  color: #666;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the options */
+option {
+  background-color: #fff;
+  color: #666;
+}
+
+ /* Style the options */
+ option {
+  background-color: #fff;
+  color: #666;
+}
+
+/* Add a hover effect for the options */
+option:hover {
+  background-color: #f1f1f1;
+}
+
+/* Change the appearance of the selected option */
+option:checked {
+  background-color: #3399ff;
+  color: #fff;
 }
